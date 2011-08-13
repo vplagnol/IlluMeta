@@ -40,10 +40,10 @@ while (<IN>){
 	chomp($l1);
 	chomp($l2);
        my $reportobj;
-      my $resultobj;
+       my $resultobj;
 
-      my $skip = 0; 
-      $count = $count + 1;
+       my $skip = 0; 
+       $count = $count + 1;
       if ($count < $start) {$skip = 1;}
       if ($count>=$end){last;}
       
