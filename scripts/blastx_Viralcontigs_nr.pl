@@ -9,7 +9,7 @@ use Bio::SearchIO;
 
 my $inputData=$ARGV[0];
 my $outputdir = $ARGV[1];
-my $kmer = $ARGV[2];
+my $kmer =  $ARGV[2];
 my $start = $ARGV[3];
 my $end = $ARGV[4];
 my $db =  $ARGV[5];
