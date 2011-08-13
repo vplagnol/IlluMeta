@@ -1,0 +1,5 @@
+Fri Jul 22 13:09:23 2011
+ /ugi/home/shared/vincent/Projects/Viral_DNA/IlluMeta/exec/velvet_1.0.18/velveth results/velvet/output_k43/ 43 -fasta -shortPaired results/velvet/input/velvet_input_paired.fasta -short results/velvet/input/velvet_input_single.fasta
+Fri Jul 22 13:09:24 2011
+ /ugi/home/shared/vincent/Projects/Viral_DNA/IlluMeta/exec/velvet_1.0.18/velvetg results/velvet/output_k43 -read_trkg yes -amos_file yes -unused_reads yes -exp_cov auto
+Final graph has 0 nodes and n50 of 0, max 0, total 0, using 0/230 reads

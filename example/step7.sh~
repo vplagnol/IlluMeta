@@ -1,0 +1,7 @@
+
+pipeline=../scripts/pipeline.sh
+output=results                                                                                ####### output Directory
+sample=example
+
+
+sh ${pipeline} --output ${output} --sample $sample --step7_q14 TRUE

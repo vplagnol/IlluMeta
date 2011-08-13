@@ -1,0 +1,7 @@
+
+pipeline=../scripts/pipeline.sh
+output=results                                                                                ####### output Directory
+sample=example
+dbnr=/ugi/home/shared/sofia/reference_seq/nr/nr.faa
+
+sh ${pipeline} --dbnr ${dbnr} --output ${output} --sample $sample --step6_q14 TRUE    

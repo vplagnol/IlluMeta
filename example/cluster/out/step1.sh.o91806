@@ -1,0 +1,22 @@
+Thu Jul 21 22:43:23 BST 2011
+/ugi/home/shared/vincent/Projects/Viral_DNA/IlluMeta/exec/fastqCollapse/fastqCollapse -i input_files/example.1.fq.gz input_files/example.2.fq.gz -o results/collapsed/example -summary results/collapsed/example_summary.txt 
+
+Fastqcollapser
+Filter duplicates from paired end fastq files. If the input format is Illumina fastq, Fastqcollapser will convert the output to Sanger fastq.
+
+Options:
+-i fastq1 fastq2   so far both files need to be in gzipped format
+-o output   will create two output files: output_1.fq output_1.fq
+-summary filename.txt creates a summary file
+
+
+
+Parsing file input_files/example.1.fq.gz  input_files/example.2.fq.gz
+Time needed, in seconds: 0.2
+Novoalign files are results/novoalign/example_nonOverlapping.novo results/novoalign/example.novo results/novoalign/example_overlapping.novo
+Print results/novoalign/example_nonOverlapping.novo
+Filename is example_nonOverlapping
+Print results/novoalign/example.novo
+Filename is example
+Print results/novoalign/example_overlapping.novo
+Filename is example_overlapping

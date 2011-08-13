@@ -1,0 +1,9 @@
+
+pipeline=../scripts/pipeline.sh
+output=results                                                                                    ####### output Directory
+sample=example
+dbViral=/ugi/data/vincent/sequence_database/viral/viral.protein.faa
+
+
+
+sh ${pipeline} --output ${output}  --dbViral ${dbViral} --sample $sample  --step3_q14 TRUE --merged TRUE --blastnDone TRUE

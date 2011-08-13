@@ -1,0 +1,3 @@
+results/velvet/output_k19/Log:Final graph has 2 nodes and n50 of 224, max 224, total 288, using 22/146 reads
+results/velvet/output_k17/Log:Final graph has 2 nodes and n50 of 264, max 264, total 330, using 24/146 reads
+results/velvet/output_k15/Log:Final graph has 1 nodes and n50 of 333, max 333, total 333, using 24/146 reads

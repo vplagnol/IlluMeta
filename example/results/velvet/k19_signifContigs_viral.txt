@@ -1,0 +1,1 @@
+NODE_1_length_224_cov_2.250000	224	gag-pol polyprotein (tag amber codon at 2250-2252 inserts Gln in Mo-MuLV) [AKR (endogenous) murine leukemia virus],gag-pro-pol polyprotein [Murine leukemia virus],pol precursor protein [Murine leukemia virus],putative gag-pol polyprotein [Murine leukemia virus],putative reverse transcriptase [Murine leukemia virus]	3e-37

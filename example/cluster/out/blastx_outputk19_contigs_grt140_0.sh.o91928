@@ -1,0 +1,2 @@
+6, Input dataset is results/velvet/outputk19_contigs_grt140.txt, sample is results, kmer is k19.  0,  2 
+Output in results/velvet/contigs_subsetted/outputk19_contigs_0_2_vs_nr.txt

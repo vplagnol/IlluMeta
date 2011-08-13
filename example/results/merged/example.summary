@@ -1,0 +1,14 @@
+SHERAc svn version:55
+
+Forward Read File: results/collapsed/example_1.fq
+Reverse Read File: results/collapsed/example_2.fq
+Adaptor File: ../support/adapters.fa
+Forward Adaptor: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Reverse Adaptor: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT
+Rev FC Adaptor:  AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+Sequences Processed: 2353
+Sequences Not Processed Bad Size: 0
+Sequences Overlapping: 2173
+Sequences Rejected No Overlap: 46
+Sequences Rejected Bad Score: 31
+Sequences Rejected too short: 103

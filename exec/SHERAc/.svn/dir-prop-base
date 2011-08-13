@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 37
+*.dSYM
+*.fq
+*.fa
+*.quala
+concatReads
+
+END
