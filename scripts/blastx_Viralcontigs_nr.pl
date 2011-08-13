@@ -15,7 +15,7 @@ my $end = $ARGV[4];
 my $db =  $ARGV[5];
 my $numArgs = $#ARGV + 1;
 
-print "$numArgs, Input dataset is $inputData, sample is $outputdir, kmer is $kmer.  $start,  $end \n";
+print "$numArgs, Input dataset is $inputData, sample is $outputdir, and kmer is $kmer.  $start,  $end \n";
 
 
 my $count = 0;
