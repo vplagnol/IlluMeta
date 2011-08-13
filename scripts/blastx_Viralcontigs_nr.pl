@@ -24,7 +24,7 @@ open(IN,  "$inputData") or die "cannot open input file\n";
 
 
 my $resFile = $outputdir."/velvet/contigs_subsetted/output".$kmer."_contigs_".$start."_".$end."_vs_nr.txt";
-open (OUT2, " > $resFile") or die "cannot open output file\n";
+open (OUT2, " > $resFile") or die "cannot open the output file\n";
 print "Output in $resFile\n";
 
 
