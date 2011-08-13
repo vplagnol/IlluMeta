@@ -39,7 +39,7 @@ while (<IN>){
 (my $l1, my $l2) = split("\t");
 	chomp($l1);
 	chomp($l2);
-      my $reportobj;
+       my $reportobj;
       my $resultobj;
 
       my $skip = 0; 
