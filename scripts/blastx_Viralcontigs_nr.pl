@@ -12,7 +12,7 @@ my $outputdir = $ARGV[1];
 my $kmer = $ARGV[2];
 my $start = $ARGV[3];
 my $end = $ARGV[4];
-my $db = $ARGV[5];
+my $db =  $ARGV[5];
 my $numArgs = $#ARGV + 1;
 
 print "$numArgs, Input dataset is $inputData, sample is $outputdir, kmer is $kmer.  $start,  $end \n";
