@@ -1,6 +1,6 @@
 
-#!/bin/sh
-#$ -S /bin/sh
+#!/bin/bash
+#$ -S /bin/bash
 
 date ##to measure the duration
 

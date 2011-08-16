@@ -4,4 +4,4 @@ outDir=results                                                                  
 sample=example
 
 
-sh ${pipeline} --outDir ${outDir} --sample $sample --step7_q14 TRUE
+bash ${pipeline} --outDir ${outDir} --sample $sample --step7_q14 TRUE

@@ -7,4 +7,4 @@ sample=example
 scriptStep5=cluster/submission/step5.sh
 local=queue1
 
-sh ${pipeline} --script ${scriptStep5} --outDir ${outDir} --local ${local}  --sample $sample --step5_q1 TRUE    
+bash ${pipeline} --script ${scriptStep5} --outDir ${outDir} --local ${local}  --sample $sample --step5_q1 TRUE    

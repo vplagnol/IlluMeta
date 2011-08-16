@@ -6,4 +6,4 @@ sample=example
 scriptStep4=cluster/submission/step4.sh
 local=queue1
 
-sh ${pipeline} --script ${scriptStep4} --outDir ${outDir} --local ${local} --sample $sample --step4_q1 TRUE --merged TRUE
+bash ${pipeline} --script ${scriptStep4} --outDir ${outDir} --local ${local} --sample $sample --step4_q1 TRUE --merged TRUE

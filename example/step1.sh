@@ -8,4 +8,4 @@ sample=example
 inputFiles="2 input_files/example.1.fq.gz input_files/example.2.fq.gz"
 
 
-sh ${pipeline} --script ${scriptStep1} --inputFiles ${inputFiles}   --reference ${referenceHuman} --outDir ${outDir} --sample ${sample} --local ${local} --step1_q1 TRUE 
+bash ${pipeline} --script ${scriptStep1} --inputFiles ${inputFiles}   --reference ${referenceHuman} --outDir ${outDir} --sample ${sample} --local ${local} --step1_q1 TRUE 

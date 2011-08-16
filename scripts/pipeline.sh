@@ -112,7 +112,6 @@ until [ -z "$1" ]; do
 done 
 
 
-
 ################ creating all the output folders
 echo -e "Output folder: $output\n"
 
@@ -149,8 +148,8 @@ done
 echo "Output script:  $script"
 
 echo "
-#!/bin/sh
-#$ -S /bin/sh
+#!/bin/bash
+#$ -S /bin/bash
 
 date ##to measure the duration
 
@@ -489,8 +488,8 @@ if [[ "$step3_q14" == "TRUE" ]]; then
 		echo $blastxScript
 		
 		echo "
-#!/bin/sh
-#$ -S /bin/sh
+#!/bin/bash
+#$ -S /bin/bash
 
 export PATH=\${PATH}:${Software}/blast-2.2.24/bin
 export PERL5LIB=\${PERL5LIB}:${Software}/bioperl-live
@@ -525,8 +524,8 @@ perl $perlBlastx  $i ${output} $filename  $start $end $dbViral
 		blastxScript=cluster/submission/blastx_${filename}_$start.sh
 		
 		echo "
-#!/bin/sh
-#$ -S /bin/sh
+#!/bin/bash
+#$ -S /bin/bash
 
 export PATH=\${PATH}:${Software}/blast-2.2.24/bin
 export PERL5LIB=\${PERL5LIB}:${Software}/bioperl-live
@@ -785,8 +784,8 @@ if [[ "$step6_q14" == "TRUE" ]]; then
 		    echo $blastxContigs
 		
 		    echo "
-#!/bin/sh
-#$ -S /bin/sh
+#!/bin/bash
+#$ -S /bin/bash
 
 export PATH=\${PATH}:${Software}/blast-2.2.24/bin
 export PERL5LIB=\${PERL5LIB}:${Software}/bioperl-live
